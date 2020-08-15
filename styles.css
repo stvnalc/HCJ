@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: block;
+    text-align: center;
+}
+
+body header, nav {
+    color: white;
+    background: red;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    padding: 10px;
+    font-family: Bebas;
+    font-size: 75px;
+    margin-left: 20px;
+    text-align: left;
+    float: left;
+}
+
+nav {
+    text-align: right;
+}
+
+li > a {
+    color: #fff;
+    list-style: none;
+    font-family: Kommon Grotesk;
+    text-decoration: none;
+    float: right;
+    margin-right: 50px;
+    transform: scale(1);
+    transition: transform .5;
+    display: flex;
+}
+
+li > a:hover {
+    color: #fff;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.Seleccionado {
+    color: black;
+    list-style: none;
+    font-family: Kommon Grotesk;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    float: right;
+    margin-right: 75px;
+}
+
+h2 {
+    font-family: Fresh Eaters;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 125px;
+}
+
+p {
+    font-family: Kommon Grotesk;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section > img {
+    padding-bottom: 100px;
+}
+
+.articulo1 {
+    color: white;
+    background: #2d3436;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.articulo1 h1 {
+    font-family: Bebas;
+    font-size: 75px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.articulo1 p {
+    font-size: 25px;
+    text-align: left;
+}
+
+.articulo2 {
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.articulo2 img {
+    padding-bottom: 0px;
+}
+
+.articulo2 h1 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-family: Bebas;
+    font-size: 75px;
+    text-align: center;
+}
+
+.articulo2 p {
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+}
